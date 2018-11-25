@@ -9,8 +9,4 @@ This is David Klein's online portfolio, hosted by [GitHub Pages][gh-pages], runn
 [gh-pages]: https://pages.github.com/
 [jekyll]: https://jekyllrb.com/
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization]
-
-
-[jekyll-organization]: https://github.com/jekyll
+[You can find the source code for Jekyll at GitHub:][https://github.com/jekyll]
