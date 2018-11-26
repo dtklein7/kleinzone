@@ -21,7 +21,7 @@
 title: David Klein's Portfolio
 email: david@kleinzone.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Kleinzone.com, a pesronal website of David Klein. feel free
+  This is kleinzone.com, a pesronal website of David Klein. feel free
   to send business inquiries, Spotify playlists, or cute dog pics to
   the provided contacts.
 baseurl: "" # the subpath of your site, e.g. /blog
