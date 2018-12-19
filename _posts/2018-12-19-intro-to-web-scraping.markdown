@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "teaching myself web scraping"
+title:  "An introduction to web scraping"
 date:   2018-12-19 10:00:00 -0800
 categories: Python, web-scraping, pandas
 ---
