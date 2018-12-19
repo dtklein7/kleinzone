@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ggplot2 is fun!"
-date:   2018-13-11
+date:   2018-13-11 12:00:00 -0800
 categories: freelance, R, ggplot2
 ---
 

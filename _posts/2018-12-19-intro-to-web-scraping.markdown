@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "teaching myself web scraping"
-date:   2018-19-11
+date:   2018-19-11 12:00:00 -0800
 categories: Python, web-scraping, pandas
 ---
 
