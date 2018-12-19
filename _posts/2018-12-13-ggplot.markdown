@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "ggplot2 is fun!"
+date:   2018-13-11
+categories: freelance, R, ggplot2
+---
+
+My most recent freelance gig had me build reporting software for a project management system. In the past I had created reports for classes using ggplot2, but never really dove into difficult or interesting visualizations because the assignments only required specific, simple implementations.
+
+Getting started on my first UpWork project has required me to do some more in depth data analysis, and my requirements for my deliverables were in turn more vague.
+
+In the pursuit of making the information my client was interested in clear and understandable, I went through many iterations and discovered a bunch of new ggplot2 functions. My favorite new thing I discovered was the `facet_wrap()` [function, which makes it easy to make organized grids of graphs!](https://plot.ly/ggplot2/facet_wrap/) Below is a picture of that report showing a year over year analysis of mean issue ticket times.
+
+![YoYAnalysis](/assets/UpworkYoYAnalysis.png)
