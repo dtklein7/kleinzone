@@ -13,4 +13,4 @@ Getting started on my first UpWork project has required me to do some more in de
 
 In the pursuit of making the information my client was interested in clear and understandable, I went through many iterations and discovered a bunch of new ggplot2 functions. My favorite new thing I discovered was the `facet_wrap()` [function, which makes it easy to make organized grids of graphs!](https://plot.ly/ggplot2/facet_wrap/) Below is a picture of that report showing a year over year analysis of mean issue ticket times.
 
-![YoYAnalysis](/assets/UpworkYoYAnalysis.png)
+![YoYAnalysis](/assets/images/UpworkYoYAnalysis.png)
