@@ -105,9 +105,7 @@ analytics:
 author:
   name             : "David Klein"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is kleinzone.com, a pesronal website of David Klein. feel free
-  to send business inquiries, Spotify playlists, or cute dog pics to
-  the provided contacts."
+  bio              : "hello!"
   location         : "Seattle, WA"
   email            :
   links:
