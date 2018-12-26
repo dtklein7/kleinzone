@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "What I'm up to"
+title: "A few updates"
 date:   2018-12-11 11:10:00 -0800
-categories: update, goals, freelance
+tags:
+  - update
+  - goals
+  - freelance
 ---
 
 My plans to fill this site up with previous projects has been on hold, I attempted multiple switches over to [other jekyll themes](https://jekyllthemes.io/) to no avail. I would like to find something minimal that can highlight a mixture of text-based and visual posts.

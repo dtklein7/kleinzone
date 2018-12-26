@@ -1,4 +1,13 @@
 ---
+title:  "ML hello world"
+date:   2018-12-21 12:00:00 -0800
+tags:
+  - Python
+  - machine-learning
+  - data-science
+---
+
+---
 layout: post
 title:  "ML hello world"
 date:   2018-12-21 12:00:00 -0800

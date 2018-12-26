@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "An introduction to web scraping"
 date:   2018-12-19 10:00:00 -0800
-categories: Python, web-scraping, pandas
+tags:
+  - Python
+  - web-scraping
+  - pandas
 ---
 
 This week I've gotten started using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) using [this tutorial I found on /r/datascience](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/)
