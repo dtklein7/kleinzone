@@ -22,10 +22,10 @@ name                     : "David Klein"
 description              : "David Klein's portfolio B)"
 url                      : "https://kleinzone.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "dtklein7/kleinzone" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 140
+words_per_minute         : 100
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -91,7 +91,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links                  : # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -105,15 +105,15 @@ analytics:
 author:
   name             : "David Klein"
   avatar           : "/assets/images/BadHeadshot.png"
-  bio              : "This is kleinzone.com, a pesronal website of David Klein. feel free
+  bio              : "This is kleinzone.com, a personal website of David Klein. feel free
   to send business inquiries, Spotify playlists, or cute dog pics to
   the provided contacts."
   location         : "Seattle, WA"
-  email            :
+  email            : "david@kleinzone.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:david@kleinzone.com
+      # url: mailto:david@kleinzone.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,14 +125,20 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/dtklein7"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/dtklein7"
 
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dtklein7"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/dtklein7"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
