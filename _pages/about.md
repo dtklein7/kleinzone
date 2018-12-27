@@ -1,11 +1,11 @@
 ---
+layout : single
 title: About
 permalink: /about/
 ---
 
-This is David Klein's online portfolio, hosted by [GitHub Pages][gh-pages], running on [Jekyll][jekyll]. Feel free to contact me using the links at the bottom of the page. Thanks for visiting!
+This is David Klein's online blogfolio..?..plog?... portfolio/blog. It is hosted by [GitHub Pages][gh-pages], running on [Jekyll][jekyll] using the [minimal-mistakes][minimal] theme. Feel free to contact me using the links at the bottom of the page. Thanks for visiting!
 
 [gh-pages]: https://pages.github.com/
 [jekyll]: https://jekyllrb.com/
-
-[You can find the source code for Jekyll at GitHub:](https://github.com/jekyll)
+[minimal]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
