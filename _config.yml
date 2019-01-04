@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -105,9 +103,8 @@ analytics:
 author:
   name             : "David Klein"
   avatar           : "/assets/images/BadHeadshot.png"
-  bio              : "This is kleinzone.com, a personal website of David Klein. feel free
-  to send business inquiries, Spotify playlists, or cute dog pics to
-  the provided contacts."
+  bio              : "This is kleinzone.com, a personal website of David Klein. Feel free to
+  send all inquiries, professional or otherwise, to the provided contacts"
   location         : "Seattle, WA"
   email            : "david@kleinzone.com"
   links:
