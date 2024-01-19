@@ -1,2 +1,2 @@
 # kleinzone
-Static portfolio site
+Built with vite js
