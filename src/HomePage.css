@@ -1,63 +1,111 @@
-.container {
-  text-align: center;
-  animation: fadeIn 2s ease-in;
-}
-
-.combo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  animation: fadeIn 0.6s ease-out;
 }
 
 .profile-section {
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 1.75rem;
 }
 
 .headshot {
-  width: 50%;
-  border-radius: 10%;
-  margin-right: 20px;
+  width: 112px;
+  height: 112px;
+  min-width: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent-soft);
 }
 
-.blurb {
-  width: 50%;
+.blurb h1 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.title {
+  margin: 0 0 0.6rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.summary {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.75rem 0 0;
+  padding: 0;
+}
+
+.tag {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
 }
 
 .links-section {
   display: flex;
-  justify-content: center;
-  width: calc(150px + 20px + 150px);
-  margin-top: 50px;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
 }
 
 .icon-link {
-  margin: 0 40px;
-  color: #000;
+  color: var(--text-muted);
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .icon-link:hover {
-  color: #ffffff;
+  color: var(--accent);
+  transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 560px) {
+  .card {
+    padding: 1.75rem;
+    border-radius: 16px;
   }
 
-  .headshot, .blurb {
-    margin-right: 0;
-    margin-bottom: 10px;
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tags {
+    justify-content: center;
   }
 
   .links-section {
-    font-size: 65%;
+    justify-content: center;
   }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
